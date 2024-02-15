@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("background.jpg");
+            background-position: center;
+            background-size: 1600px 700px;
+            margin:0px 10px 10px 10px;
+        }
+       .parent{
+        
+        display: grid;
+        
+        grid-template-columns: 15% 25% 15%  ;
+        grid-template-rows: 200px 210px 250px;
+        grid-gap:10px;
+        grid-template-areas:"child1 child1 child2"
+                            "child3 child4 child5"
+                            "child6 child7 child7";
+         margin-top:10px;
+        margin-left: 450px ;
+        margin-right: -600px;
+        
+       }
+
+       .child1{
+        grid-area:child1;
+        text-align:center;
+        border:2px solid rgb(247, 241, 241);
+        border-radius: 20px;
+       }
+       .child2{
+        grid-area:child2;
+        text-align:center;
+        border:2px solid rgb(247, 241, 241);
+        border-radius: 20px;
+       }
+       .child3{
+        grid-area:child3;
+        text-align:center;
+        border:2px solid rgb(247, 241, 241);
+        border-radius: 20px;
+       }
+       .child4{
+        grid-area:child4;
+        text-align:center;
+        border:2px solid rgb(247, 241, 241);
+        border-radius: 20px;
+       }
+       .child5{
+        grid-area:child5;
+        text-align:center;
+        border:2px solid rgb(247, 241, 241);
+        border-radius: 20px;
+       }
+       .child6{
+        grid-area:child6;
+        text-align:center;
+        border:2px solid rgb(247, 241, 241);
+        border-radius: 20px;
+       }
+       .child7{
+        grid-area:child7;
+        text-align:center;
+        border:2px solid rgb(247, 241, 241);
+        border-radius: 20px;
+       }
+       
+      input{
+        margin-left:-450px;
+        margin-right: 300px;
+        margin-top: -300px;
+        margin-bottom: 310px;
+        border:2px solid rgb(249, 248, 250);
+        border-radius: 20px;
+        opacity:0.7;
+        font-weight: bolder;
+        height:40px;
+        font-size: 20px;
+        font-family:Comic Sans MS;
+       }
+       input:hover{
+        margin-left:-450px;
+        margin-right: 300px;
+        margin-top: -300px;
+        margin-bottom: 310px;
+        border:2px solid rgb(249, 248, 250);
+        border-radius: 20px;
+        opacity:1;
+        color:rgb(90, 10, 164);
+        font-weight: bolder;
+       }
+       .child1>img{
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+
+       }
+       .child2>img{
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+
+       }
+       .child3>img{
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+
+       }
+       .child4>img{
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+
+       }
+       .child5>img{
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+
+       }
+       .child6>img{
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+
+       }
+       .child7>img{
+        height:100%;
+        width:100%;
+        border-radius: 20px;
+
+       }
+
+       
+       
+       
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        
+    <div class="child1"><img src="img2.jpg"></div>
+    <div class="child2"><img src="img3.jpg"></div>
+    <div class="child3"><img src="img4.jpg"></div>
+    <div class="child4"><img src="img7.jpg"></div>
+    <div class="child5"><img src="img5.jpg"></div>
+    <div class="child6"><img src="img6.jpg"></div>
+    <div class="child7"><img src="img8.jpg"></div>
+    <input type="search" placeholder="&#129680Explore the space">
+    </div>
